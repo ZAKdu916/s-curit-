@@ -1,0 +1,50 @@
+Exposé sur la Sécurité sur le Web
+
+Introduction
+
+La sécurité sur le web est un ensemble de pratiques visant à protéger les sites web et les applications
+ web contre les menaces et les attaques. Elle est essentielle pour garantir la confidentialité, l'intégrité 
+et la disponibilité des données.
+
+Les Principales Menaces de Sécurité Web
+
+Injection SQL (SQLi) : Une attaque où un attaquant injecte des commandes SQL dans une requête
+ pour accéder ou modifier la base de données.
+
+Cross-Site Scripting (XSS) : Une attaque qui permet à un attaquant d'injecter du code JavaScript malveillant 
+dans une page web vue par d'autres utilisateurs.
+
+Cross-Site Request Forgery (CSRF) : Une attaque où un utilisateur est forcé de réaliser une action 
+sur un site où il est authentifié, sans son consentement.
+
+Faille de Configuration de Sécurité : Mauvaise configuration des serveurs, des API ou des bibliothèques utilisées.
+
+Vol de Session (Session Hijacking) : Prise de contrôle de la session d'un utilisateur légitime.
+
+Bonnes Pratiques de Sécurité Web
+
+Valider les entrées utilisateurs : Utiliser des filtres et des contrôles sur les formulaires.
+
+Protéger les Cookies : Utiliser les attributs HttpOnly et Secure pour les cookies.
+
+Utiliser HTTPS (TLS) : Chiffrer les communications entre le client et le serveur.
+
+Limiter les Permissions : Restreindre les accès aux fichiers et aux dossiers sur le serveur.
+
+Mettre à jour régulièrement : Garder les bibliothèques, les frameworks et les serveurs à jour.
+
+Les Outils de Sécurité Web
+
+OWASP ZAP : Un outil de test de sécurité automatisé.
+
+Burp Suite : Un outil de test de sécurité manuel et automatisé.
+
+HTTPS Everywhere : Une extension qui force les connexions HTTPS.
+
+ModSecurity : Un pare-feu d'application web (WAF).
+
+Conclusion
+
+La sécurité sur le web est un domaine crucial pour tout développeur web. Comprendre les
+ principales menaces et appliquer les bonnes pratiques est essentiel 
+pour garantir la sûreté des utilisateurs et des données.
